@@ -8,14 +8,7 @@ number:
 date:
 consensus: true
 v: 3
-# area: "Operations and Management"
-# workgroup: 
-# keyword:
 venue:
-  # group: "Policy Framework"
-  # type: "Working Group"
-  # mail: "policy@ietf.org"
-  # arch: "https://mailarchive.ietf.org/arch/search/?email_list=policy"
   github: "coopdanger/draft-ietf-policy-interactions"
   latest: "https://coopdanger.github.io/draft-ietf-policy-interactions/draft-cooper-policy-interactions.html"
 
