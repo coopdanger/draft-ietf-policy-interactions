@@ -14,8 +14,6 @@ author:
  -
     fullname: Mark Nottingham
     email: "mnot@mnot.net"
-    
-author:
  -
     fullname: Alissa Cooper
     organization: Cisco
@@ -23,7 +21,7 @@ author:
 
 normative:
 
-informative:
+informative: RFC8224: RFC8225: RFC8226: RFC8588: RFC8484: RFC1984: RFC2804: RFC3365: RFC7258: RFC3261: RFC5222: RFC5594:
 
 
 --- abstract
