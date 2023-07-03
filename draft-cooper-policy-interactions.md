@@ -1,17 +1,20 @@
 ---
 title: "IETF Policy Interactions"
 category: info
-
+ipr: trust200902
 docname: draft-cooper-policy-interactions-latest
-submissiontype: IETF  # also: "independent", "IAB", or "IRTF"
-number:
-date:
-consensus: true
+submissiontype: IETF
+date: {DATE}
 v: 3
 venue:
   github: "coopdanger/draft-ietf-policy-interactions"
   latest: "https://coopdanger.github.io/draft-ietf-policy-interactions/draft-cooper-policy-interactions.html"
 
+author:
+ -
+    fullname: Mark Nottingham
+    email: "mnot@mnot.net"
+    
 author:
  -
     fullname: Alissa Cooper
@@ -25,7 +28,7 @@ informative:
 
 --- abstract
 
-TODO Abstract
+This document captures a list of interactions between IETF efforts and policy efforts.
 
 
 --- middle
