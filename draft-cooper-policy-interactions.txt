@@ -2,10 +2,11 @@
 
 
 
-Network Working Group                                          A. Cooper
-Internet-Draft                                                     Cisco
-Intended status: Informational                               3 July 2023
-Expires: 4 January 2024
+Network Working Group                                      M. Nottingham
+Internet-Draft                                                          
+Intended status: Informational                                 A. Cooper
+Expires: 4 January 2024                                            Cisco
+                                                             3 July 2023
 
 
                         IETF Policy Interactions
@@ -13,7 +14,8 @@ Expires: 4 January 2024
 
 Abstract
 
-   TODO Abstract
+   This document captures a list of interactions between IETF efforts
+   and policy efforts.
 
 About This Document
 
@@ -77,8 +79,9 @@ Table of Contents
      2.12. IAB
    3.  Security Considerations
    4.  IANA Considerations
+   5.  Informative References
    Acknowledgments
-   Author's Address
+   Authors' Addresses
 
 1.  Introduction
 
@@ -97,26 +100,27 @@ Table of Contents
 
 2.1.  STIR/SHAKEN
 
-   Combatting caller ID spoofing using VoIP.
+   Combatting caller ID spoofing that uses VoIP.
 
-   RFCs 8224-6, 8588.
+   See [RFC8224], [RFC8225], [RFC8226], [RFC8588].
 
-   *  FCC-mandated, expanded to Canada.
+   *  Regulatory mandates in US, Canada, and France thus far.
 
 2.2.  MIMI
 
    Interoperability for encrypted messaging.
 
-   *  Instigated by requirements in the EU DMA.  Several of the key
-      participants have met with EC staff and participated in the EC
-      workshop on the topic.  The AD and co-chairs are staying in touch
-      with the EC staff focused on messaging interop.
+   *  Instigated by requirements in the EU Digital Markets Act (DMA).
+      Several of the key participants have met with EC staff and
+      participated in the EC workshop on the topic.  The AD and co-
+      chairs are staying in touch with the EC staff focused on messaging
+      interop.
 
 2.3.  DoH
 
    DNS-over-HTTPS.
 
-   RFC8484 (https://www.rfc-editor.org/rfc/rfc8484.html).
+   See [RFC8484].
 
    *  Proposal to regulate in Russia (https://www.zdnet.com/article/
       russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-
@@ -147,30 +151,30 @@ Table of Contents
 
 2.5.  Encryption BCPs
 
-   *  RFC 1984 and all the discussions that led up to it
+   *  See [RFC1984] and all the discussions that led up to it.
 
-   *  RFC 2804 and all the discussions that led up to it
+   *  See [RFC2804] and all the discussions that led up to it.
 
-   *  RFC 3365
+   *  See [RFC3365].
 
-   *  RFC 7258 and all the post-Snowden follow-on activity related to
-      encryption; data minimization in DNS, DHCP, and elsewhere;
-      opportunistic encryption (however impotent that proved to be);
-      ACME; HTTP/2 discussions, TLS 1.3, and QUIC --> I think all of
-      these efforts trace some roots back to post-Snowden.
+   *  See [RFC7258] and all the post-Snowden follow-on activity related
+      to encryption: data minimization in DNS, DHCP, and elsewhere;
+      opportunistic encryption; ACME; HTTP/2 discussions, TLS 1.3, and
+      QUIC.  All of these efforts trace some roots back to post-Snowden.
 
 2.6.  VoIP
 
-   Early years of SIP (early 2000s) had involvement from regulators and
-   their proxies -- obviously there is a ton of PSTN interop built into
-   SIP.  RFC 3261 and the rest of the document suite. .
+   The early years of SIP (early 2000s) had involvement from regulators
+   and their proxies.  There is a very significant amount of PSTN
+   interop built into SIP.  See [RFC3261] and the rest of the document
+   suite.
 
 2.7.  Emergency services
 
    ECRIT (starting mid-2000s) had extensive involvement from people
    working for/with Public Safety Answering Points (PSAPs) as well as
-   some input from telecom regulators like the FCC.  RFC 5222 and the
-   rest of the document suite.
+   some input from telecom regulators such as the FCC.  See [RFC5222]
+   and the rest of the document suite.
 
 2.8.  TV whitespaces database protocol
 
@@ -198,9 +202,8 @@ Table of Contents
 
 2.11.  P2P congestion control
 
-   In 2008, the IETF hosted an entire workshop that was spurred by an
-   FCC action against Comcast regarding P2P traffic throttling.  See RFC
-   5594.
+   In 2008, the IETF hosted a workshop that was spurred by an FCC action
+   against Comcast regarding P2P traffic throttling.  See [RFC5594].
 
 2.12.  IAB
 
@@ -226,11 +229,76 @@ Table of Contents
 
    This document has no IANA actions.
 
+5.  Informative References
+
+   [RFC1984]  IAB and IESG, "IAB and IESG Statement on Cryptographic
+              Technology and the Internet", BCP 200, RFC 1984,
+              DOI 10.17487/RFC1984, August 1996,
+              <https://www.rfc-editor.org/rfc/rfc1984>.
+
+   [RFC2804]  IAB and IESG, "IETF Policy on Wiretapping", RFC 2804,
+              DOI 10.17487/RFC2804, May 2000,
+              <https://www.rfc-editor.org/rfc/rfc2804>.
+
+   [RFC3261]  Rosenberg, J., Schulzrinne, H., Camarillo, G., Johnston,
+              A., Peterson, J., Sparks, R., Handley, M., and E.
+              Schooler, "SIP: Session Initiation Protocol", RFC 3261,
+              DOI 10.17487/RFC3261, June 2002,
+              <https://www.rfc-editor.org/rfc/rfc3261>.
+
+   [RFC3365]  Schiller, J., "Strong Security Requirements for Internet
+              Engineering Task Force Standard Protocols", BCP 61,
+              RFC 3365, DOI 10.17487/RFC3365, August 2002,
+              <https://www.rfc-editor.org/rfc/rfc3365>.
+
+   [RFC5222]  Hardie, T., Newton, A., Schulzrinne, H., and H.
+              Tschofenig, "LoST: A Location-to-Service Translation
+              Protocol", RFC 5222, DOI 10.17487/RFC5222, August 2008,
+              <https://www.rfc-editor.org/rfc/rfc5222>.
+
+   [RFC5594]  Peterson, J. and A. Cooper, "Report from the IETF Workshop
+              on Peer-to-Peer (P2P) Infrastructure, May 28, 2008",
+              RFC 5594, DOI 10.17487/RFC5594, July 2009,
+              <https://www.rfc-editor.org/rfc/rfc5594>.
+
+   [RFC7258]  Farrell, S. and H. Tschofenig, "Pervasive Monitoring Is an
+              Attack", BCP 188, RFC 7258, DOI 10.17487/RFC7258, May
+              2014, <https://www.rfc-editor.org/rfc/rfc7258>.
+
+   [RFC8224]  Peterson, J., Jennings, C., Rescorla, E., and C. Wendt,
+              "Authenticated Identity Management in the Session
+              Initiation Protocol (SIP)", RFC 8224,
+              DOI 10.17487/RFC8224, February 2018,
+              <https://www.rfc-editor.org/rfc/rfc8224>.
+
+   [RFC8225]  Wendt, C. and J. Peterson, "PASSporT: Personal Assertion
+              Token", RFC 8225, DOI 10.17487/RFC8225, February 2018,
+              <https://www.rfc-editor.org/rfc/rfc8225>.
+
+   [RFC8226]  Peterson, J. and S. Turner, "Secure Telephone Identity
+              Credentials: Certificates", RFC 8226,
+              DOI 10.17487/RFC8226, February 2018,
+              <https://www.rfc-editor.org/rfc/rfc8226>.
+
+   [RFC8484]  Hoffman, P. and P. McManus, "DNS Queries over HTTPS
+              (DoH)", RFC 8484, DOI 10.17487/RFC8484, October 2018,
+              <https://www.rfc-editor.org/rfc/rfc8484>.
+
+   [RFC8588]  Wendt, C. and M. Barnes, "Personal Assertion Token
+              (PaSSporT) Extension for Signature-based Handling of
+              Asserted information using toKENs (SHAKEN)", RFC 8588,
+              DOI 10.17487/RFC8588, May 2019,
+              <https://www.rfc-editor.org/rfc/rfc8588>.
+
 Acknowledgments
 
    TODO acknowledge.
 
-Author's Address
+Authors' Addresses
+
+   Mark Nottingham
+   Email: mnot@mnot.net
+
 
    Alissa Cooper
    Cisco
