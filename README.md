@@ -1,6 +1,6 @@
-# TODO - Your title
+# draft-cooper-policy-interactions
 
-This is the working area for the individual Internet-Draft, "TODO - Your title".
+This is the working area for the individual Internet-Draft, draft-cooper-policy-interactions.
 
 * [Editor's Copy](https://coopdanger.github.io/draft-ietf-policy-interactions/#go.draft-cooper-policy-interactions.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-cooper-policy-interactions)
