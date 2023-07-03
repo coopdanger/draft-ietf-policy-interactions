@@ -49,6 +49,7 @@ Comments and additional suggestions of policy interactions not listed here shoul
 
 See {{?RFC8484}}.
 
+Some related news reporting:
 * [Proposal to regulate in Russia](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/)
 * [GCHQ sends 'warning' to Google and Mozilla over DoH](https://www.telegraph.co.uk/news/2019/05/31/gchq-warns-google-mozilla-plans-encrypted-browsers/)
 * [Congressional scrutiny of DoH](https://hub.packtpub.com/googles-dns-over-https-encryption-plan-faces-scrutiny-from-isps-and-the-congress/)
@@ -57,8 +58,9 @@ See {{?RFC8484}}.
 
 See {{?I-D.ietf-tls-esni}}.
 
+Some related news reporting:
 * [Proposal to regulate in Russia](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/)
-* [ESNI blocked in China](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/); ECH?
+* [ESNI blocked in China](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/)
 
 ## VoIP
 
@@ -74,13 +76,11 @@ STIR (and the related SHAKEN initiative) are designed to combat caller ID spoofi
 
 See {{?RFC8224}}, {{?RFC8225}}, {{?RFC8226}}, {{?RFC8588}}.
 
-* Regulatory mandates exist in the US, Canada, and France thus far.
+Regulatory mandates exist in the US, Canada, and France thus far.
 
 ## Messaging interoperability
 
-The MIMI working group is chartered to work on interoperability for encrypted messaging.
-
-* Instigated by requirements in the EU Digital Markets Act (DMA). Several of the key participants have met with EC staff and participated in the EC workshop on the topic. The AD and co-chairs are staying in touch with the EC staff focused on messaging interop.
+The MIMI working group is chartered to work on interoperability for encrypted messaging. This work was instigated based on requirements in the EU Digital Markets Act (DMA). Several of the key participants have met with EC staff and participated in the EC workshop on the topic. The AD and co-chairs are staying in touch with the EC staff focused on messaging interop.
 
 ## TV whitespaces database protocol
 
