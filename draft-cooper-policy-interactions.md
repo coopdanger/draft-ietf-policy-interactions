@@ -21,8 +21,7 @@ author:
 
 normative:
 
-informative: 
-
+informative:
 
 --- abstract
 
@@ -41,23 +40,23 @@ Comments and additional suggestions of policy interactions not listed here shoul
 
 ## STIR/SHAKEN
 
-Combatting caller ID spoofing using VoIP.
+Combatting caller ID spoofing that uses VoIP.
 
-{{?RFC8224}}, {{?RFC8225}}, {{?RFC8226}}, {{?RFC8588}}.
+See {{?RFC8224}}, {{?RFC8225}}, {{?RFC8226}}, {{?RFC8588}}.
 
-* FCC-mandated, expanded to Canada.
+* Regulatory mandates in US, Canada, and France thus far.
 
 ## MIMI
 
 Interoperability for encrypted messaging.
 
-* Instigated by requirements in the EU DMA. Several of the key participants have met with EC staff and participated in the EC workshop on the topic. The AD and co-chairs are staying in touch with the EC staff focused on messaging interop.
+* Instigated by requirements in the EU Digital Markets Act (DMA). Several of the key participants have met with EC staff and participated in the EC workshop on the topic. The AD and co-chairs are staying in touch with the EC staff focused on messaging interop.
 
 ## DoH
 
 DNS-over-HTTPS.
 
-[RFC8484](https://www.rfc-editor.org/rfc/rfc8484.html).
+See {{?RFC8484}}.
 
 * [Proposal to regulate in Russia](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/)
 * [GCHQ sends 'warning' to Google and Mozilla over DoH](https://www.telegraph.co.uk/news/2019/05/31/gchq-warns-google-mozilla-plans-encrypted-browsers/)
@@ -74,19 +73,18 @@ Ongoing [draft in the TLS WG](https://datatracker.ietf.org/doc/draft-ietf-tls-es
 
 ## Encryption BCPs
 
-- RFC 1984 and all the discussions that led up to it
-- RFC 2804 and all the discussions that led up to it
-- RFC 3365
-- RFC 7258 and all the post-Snowden follow-on activity related to encryption; data minimization in DNS, DHCP, and elsewhere; opportunistic encryption (however impotent that proved to be); ACME; HTTP/2 discussions, TLS 1.3, and QUIC --> I think all of these efforts trace some roots back to post-Snowden.
+- See {{?RFC1984}} and all the discussions that led up to it.
+- See {{?RFC2804}} and all the discussions that led up to it.
+- See {{?RFC3365}}.
+- See {{?RFC7258}} and all the post-Snowden follow-on activity related to encryption: data minimization in DNS, DHCP, and elsewhere; opportunistic encryption; ACME; HTTP/2 discussions, TLS 1.3, and QUIC. All of these efforts trace some roots back to post-Snowden.
 
 ## VoIP
 
-Early years of SIP (early 2000s) had involvement from regulators and their proxies -- obviously there is a ton of PSTN interop built into SIP. RFC 3261 and the rest of the document suite.
-.
+The early years of SIP (early 2000s) had involvement from regulators and their proxies. There is a very significant amount of PSTN interop built into SIP. See {{?RFC3261}} and the rest of the document suite.
 
 ## Emergency services
 
-ECRIT (starting mid-2000s) had extensive involvement from people working for/with Public Safety Answering Points (PSAPs) as well as some input from telecom regulators like the FCC. RFC 5222 and the rest of the document suite.
+ECRIT (starting mid-2000s) had extensive involvement from people working for/with Public Safety Answering Points (PSAPs) as well as some input from telecom regulators such as the FCC. See {{?RFC5222}} and the rest of the document suite.
 
 ## TV whitespaces database protocol
 
@@ -102,7 +100,7 @@ There has been long-term involvement (including people in AD roles) from those i
 
 ## P2P congestion control
 
-In 2008, the IETF hosted an entire workshop that was spurred by an FCC action against Comcast regarding P2P traffic throttling. See RFC 5594.
+In 2008, the IETF hosted a workshop that was spurred by an FCC action against Comcast regarding P2P traffic throttling. See {{?RFC5594}}.
 
 ## IAB
 
