@@ -54,7 +54,7 @@ Interoperability for encrypted messaging.
 
 ## DoH
 
-DNS-over-HTTPS. 
+DNS-over-HTTPS.
 
 [RFC8484](https://www.rfc-editor.org/rfc/rfc8484.html).
 
