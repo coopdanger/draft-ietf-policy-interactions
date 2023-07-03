@@ -1,6 +1,5 @@
 ---
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "IETF Policy Interactions"
 category: info
 
 docname: draft-cooper-policy-interactions-latest
@@ -9,25 +8,22 @@ number:
 date:
 consensus: true
 v: 3
-area: "Operations and Management"
-workgroup: "Policy Framework"
-keyword:
- - next generation
- - unicorn
- - sparkling distributed ledger
+# area: "Operations and Management"
+# workgroup: 
+# keyword:
 venue:
-  group: "Policy Framework"
-  type: "Working Group"
-  mail: "policy@ietf.org"
-  arch: "https://mailarchive.ietf.org/arch/search/?email_list=policy"
+  # group: "Policy Framework"
+  # type: "Working Group"
+  # mail: "policy@ietf.org"
+  # arch: "https://mailarchive.ietf.org/arch/search/?email_list=policy"
   github: "coopdanger/draft-ietf-policy-interactions"
   latest: "https://coopdanger.github.io/draft-ietf-policy-interactions/draft-cooper-policy-interactions.html"
 
 author:
  -
-    fullname: Your Name Here
-    organization: Your Organization Here
-    email: "coopdanger@users.noreply.github.com"
+    fullname: Alissa Cooper
+    organization: Cisco
+    email: "alcoop@cisco.com"
 
 normative:
 
