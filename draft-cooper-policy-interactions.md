@@ -55,7 +55,7 @@ See {{?RFC8484}}.
 
 ## TLS Encrypted Client Hello (ECH)
 
-See {{?draft-ietf-tls-esni}}.
+See {{?I-D-ietf-tls-esni}}.
 
 * [Proposal to regulate in Russia](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/)
 * [ESNI blocked in China](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/); ECH?
