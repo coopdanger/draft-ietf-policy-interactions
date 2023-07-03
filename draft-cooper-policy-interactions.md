@@ -21,7 +21,7 @@ author:
 
 normative:
 
-informative: RFC8224: RFC8225: RFC8226: RFC8588: RFC8484: RFC1984: RFC2804: RFC3365: RFC7258: RFC3261: RFC5222: RFC5594:
+informative: 
 
 
 --- abstract
@@ -43,7 +43,7 @@ Comments and additional suggestions of policy interactions not listed here shoul
 
 Combatting caller ID spoofing using VoIP.
 
-RFCs 8224-6, 8588.
+{{?RFC8224}}, {{?RFC8225}}, {{?RFC8226}}, {{?RFC8588}}.
 
 * FCC-mandated, expanded to Canada.
 
