@@ -32,7 +32,7 @@ This document captures a list of interactions between IETF efforts and policy ef
 
 # Introduction
 
-This document captures a list of interactions between IETF efforts and policy efforts (e.g., regulation or legislation) around the world, past or present. The objective of this document is merely to catalogue these interactions in a single location.
+This document captures a list of interactions between IETF standards-related efforts and external policy efforts (e.g., regulation or legislation) around the world, past or present. The objective of this document is merely to catalogue these interactions in a single location.
 
 Comments and additional suggestions of policy interactions not listed here should be submitted via the issue tracker at [https://github.com/coopdanger/draft-ietf-policy-interactions](https://github.com/coopdanger/draft-ietf-policy-interactions).
 
