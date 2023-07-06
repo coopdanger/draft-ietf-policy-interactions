@@ -32,22 +32,27 @@ This document captures a list of interactions between IETF efforts and policy ef
 
 # Introduction
 
-This document captures a list of interactions between IETF efforts and policy efforts (e.g., regulation or legislation) around the world, past or present. The objective of this docment is merely to catalogue these interactions in a single location.
+This document captures a list of interactions between IETF standards-related efforts and external policy efforts (e.g., regulation or legislation) around the world, past or present. The objective of this document is merely to catalogue these interactions in a single location.
 
 Comments and additional suggestions of policy interactions not listed here should be submitted via the issue tracker at [https://github.com/coopdanger/draft-ietf-policy-interactions](https://github.com/coopdanger/draft-ietf-policy-interactions).
 
 # Policy Interactions
 
-## Encryption BCPs
+## Encryption and Access to Communications
 
-- See {{?RFC1984}} and all the discussions that led up to it.
-- See {{?RFC2804}} and all the discussions that led up to it.
-- See {{?RFC3365}}.
-- See {{?RFC7258}} and all the post-Snowden follow-on activity related to encryption: data minimization in DNS, DHCP, and elsewhere; opportunistic encryption; ACME; HTTP/2 discussions, TLS 1.3, and QUIC. All of these efforts trace some roots back to post-Snowden.
+THE IETF has repeatedly published materials that respond to policy developments surrounding the use of encryption, and more generally regarding access to communications.
+
+{{?RFC1984}} stated the IESG and IAB's position regarding legal constraints on encryption in 1996, with a focus on the effects on the Internet. It was elevated to Best Current Practice (which requires IETF-wide consensus) in 2015.
+
+{{?RFC2804}} articulates why the IESG and IAB believed that it was not appropriate to accommodate wiretapping requirements from law enforcement, circa 2000.
+
+{{?RFC3365}} set a requirement for IETF standard protocols to use 'appropriate strong security mechanisms', including encryption. It was published as Best Current Practice in 2002.
+
+{{?RFC7258}} documents IETF consensus that pervasive monitoring is an attack, and thus should be mitigated in IETF protocols (often, using encryption). It was a response to the Snowden revelations, and followed the STRINT Workshop <https://www.w3.org/2014/strint/>, held jointly by the W3C and IAB. Follow-on work to implement {{RFC7258}} includes opportunistic encryption, data minimization, improvements to the encryption ecosystem such as {{?ACME=RFC8555}}, discussion of mandatory encryption in {{?HTTP2=RFC7540}}, {{?TLS13=RFC8446}}, and {{?QUIC=RFC9110}}.
 
 ## DNS-over-HTTPS (DOH)
 
-See {{?RFC8484}}.
+{{?DOH=RFC8484}} was a technical response to pervasive monitoring attacks on DNS.
 
 Some related news reporting:
 * [Proposal to regulate in Russia](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/)
@@ -56,15 +61,15 @@ Some related news reporting:
 
 ## TLS Encrypted Client Hello (ECH)
 
-See {{?I-D.ietf-tls-esni}}.
+{{?ECH=I-D.ietf-tls-esni}} is a work-in-progress effort to respond to pervasive monitoring attacks on TLS SNI, which exposes the hostname =being connected to, even when several hostnames are served by the same IP address.
 
 Some related news reporting:
 * [Proposal to regulate in Russia](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/)
 * [ESNI blocked in China](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/)
 
-## VoIP
+## Voice over IP
 
-The early years of SIP (early 2000s) had involvement from regulators and their proxies. There is a very significant amount of PSTN interop built into SIP. See {{?RFC3261}} and the rest of the document suite.
+The early years of SIP (early 2000s) had involvement from regulators and their proxies. There is a very significant amount of PSTN interop built into SIP. See {{?RFC3261}} and the rest of the SIP document suite.
 
 ## Emergency services
 
