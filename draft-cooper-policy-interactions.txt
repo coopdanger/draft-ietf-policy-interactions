@@ -76,7 +76,7 @@ Table of Contents
      2.9.  Broadband measurement
      2.10. Incident response
      2.11. P2P congestion control
-     2.12. IAB
+     2.12. Internet Architecture Board (IAB)
    3.  Security Considerations
    4.  IANA Considerations
    5.  Informative References
@@ -99,14 +99,16 @@ Table of Contents
 
 2.1.  Encryption and Access to Communications
 
-   THE IETF has repeatedly published materials that respond to policy
+   THE IETF has a history of publishing documents that respond to policy
    developments surrounding the use of encryption, and more generally
    regarding access to communications.
 
    [RFC1984] stated the IESG and IAB's position regarding legal
    constraints on encryption in 1996, with a focus on the effects on the
-   Internet.  It was elevated to Best Current Practice (which requires
-   IETF-wide consensus) in 2015.
+   Internet.  The publication of the document was prompted in part by
+   the controversy surrounding the US government's promotion of the
+   Clipper Chip.  The document was elevated to Best Current Practice
+   (which requires IETF-wide consensus) in 2015.
 
    [RFC2804] articulates why the IESG and IAB believed that it was not
    appropriate to accommodate wiretapping requirements from law
@@ -119,12 +121,14 @@ Table of Contents
    [RFC7258] documents IETF consensus that pervasive monitoring is an
    attack, and thus should be mitigated in IETF protocols (often, using
    encryption).  It was a response to the Snowden revelations, and
-   followed the STRINT Workshop https://www.w3.org/2014/strint/
+   followed the Workshop on Strengthening the Internet Against Pervasive
+   Monitoring (STRINT) https://www.w3.org/2014/strint/
    (https://www.w3.org/2014/strint/), held jointly by the W3C and IAB.
    Follow-on work to implement [RFC7258] includes opportunistic
-   encryption, data minimization, improvements to the encryption
-   ecosystem such as [ACME], discussion of mandatory encryption in
-   [HTTP2], [TLS13], and [QUIC].
+   encryption [RFC7435] [RFC8110] [RFC8164], data minimization [RFC7816]
+   [RFC9156], improvements to the encryption ecosystem such as [ACME],
+   and discussion of mandatory encryption in [HTTP2], [TLS13], and
+   [QUIC].
 
 2.2.  DNS-over-HTTPS (DOH)
 
@@ -154,70 +158,81 @@ Table of Contents
 
 2.4.  Voice over IP
 
-   The early years of SIP (early 2000s) had involvement from regulators
-   and their proxies.  There is a very significant amount of PSTN
-   interop built into SIP.  See [RFC3261] and the rest of the SIP
-   document suite.
+   The development of the Session Initiation Protocol (SIP) in the early
+   2000s had involvement from regulators and their proxies.  There is a
+   very significant amount of PSTN interop built into SIP.  See
+   [RFC3261] and the rest of the SIP document suite.
 
 2.5.  Emergency services
 
-   ECRIT (starting mid-2000s) had extensive involvement from people
-   working for/with Public Safety Answering Points (PSAPs) as well as
-   some input from telecom regulators such as the FCC.  See [RFC5222]
-   and the rest of the document suite.
+   The Emergency Context Resolution with Internet Technologies (ECRIT)
+   working group, which began in the starting mid-2000s, had extensive
+   involvement from people working for/with Public Safety Answering
+   Points (PSAPs) as well as some input from telecom regulators such as
+   the US Federal Communications Commission (FCC).  See [RFC5222] and
+   the rest of the document suite.
 
 2.6.  Caller identity authentication
 
-   STIR (and the related SHAKEN initiative) are designed to combat
-   caller ID spoofing that uses VoIP.
+   Secure Telephone Identity Revisited (STIR) and the related SHAKEN
+   initiative are designed to combat caller ID spoofing that uses VoIP.
 
-   See [RFC8224], [RFC8225], [RFC8226], [RFC8588].
+   See [RFC8224], [RFC8225], [RFC8226], and [RFC8588].
 
-   Regulatory mandates exist in the US, Canada, and France thus far.
+   Regulatory mandates to use STIR exist in the US, Canada, and France
+   thus far.
 
 2.7.  Messaging interoperability
 
-   The MIMI working group is chartered to work on interoperability for
-   encrypted messaging.  This work was instigated based on requirements
-   in the EU Digital Markets Act (DMA).  Several of the key participants
-   have met with EC staff and participated in the EC workshop on the
-   topic.  The AD and co-chairs are staying in touch with the EC staff
-   focused on messaging interop.
+   The More Instant Messaging Interoperability (MIMI) working group is
+   chartered to work on interoperability for encrypted messaging.  This
+   work was instigated based on requirements in the EU Digital Markets
+   Act (DMA).  Several of the key participants have met with European
+   Commission (EC) staff and participated in an EC workshop on the
+   topic.  The area director and co-chairs are staying in touch with the
+   EC staff focused on messaging interoperability.
 
 2.8.  TV whitespaces database protocol
 
    The Protocol to Access Whitespaces (PAWS) working group was created
-   based on requirements received from the FCC after they freed up TV
+   based on requirements received from the FCC after they allocated TV
    whitespaces spectrum for unlicensed use.
 
 2.9.  Broadband measurement
 
    The Large-Scale Measurement of Broadband Performance (LMAP) working
-   group was created as a result of disparate efforts by Ofcom, the FCC,
-   and BEREC, who were all running their own jurisdiction-specific
-   broadband speed measurement efforts (several of them using a vendor
-   which had its own proprietary measurement protocol).  There were a
-   few regulator participants involved in the protocol development
+   group was created as a result of disparate efforts by Ofcom in the
+   UK, the FCC, and the Body of European Regulators of Electronic
+   Communications (BEREC), who were all running their own jurisdiction-
+   specific broadband speed measurement efforts (several of them using a
+   vendor which had its own proprietary measurement protocol).  There
+   were regulator participants involved in the protocol development
    effort.
 
 2.10.  Incident response
 
-   There has been long-term involvement (including people in AD roles)
-   from those involved with various CERTs and national cybersecurity
-   authorities in several of the IETF's working groups focused on
-   incident response and exchange of incident/vulnerability information:
-   MILE, SACM, and DOTS.
+   There has been long-term involvement (including people in area
+   director roles) from those involved with various CERTs and national
+   cybersecurity authorities in several of the IETF's working groups
+   focused on incident response and exchange of incident/vulnerability
+   information: Managed Incident Lightweight Exchange (MILE), Security
+   Automation and Continuous Monitoring (SACM), and DDoS Open Threat
+   Signaling (DOTS).
 
 2.11.  P2P congestion control
 
    In 2008, the IETF hosted a workshop that was spurred by an FCC action
-   regarding P2P traffic throttling.  See [RFC5594].
+   regarding P2P traffic throttling.  See [RFC5594].  Related challenges
+   associated with multiplexing flows with different characteristics
+   were addressed in the Active Queue Management working group (see,
+   e.g., [RFC7567]) and in the Congestion Exposure working group (see,
+   e.g., [RFC7713]).
 
-2.12.  IAB
+2.12.  Internet Architecture Board (IAB)
 
-   In addition to the IAB's coordination with ISOC on policy matters,
-   the IAB also frequently contributes to policy and regulatory
-   proceedings around the world.  Some recent examples:
+   In addition to the IAB's coordination with the Internet Society on
+   policy matters, the IAB also frequently contributes to policy and
+   regulatory proceedings around the world.  Some recent examples:
 
    *  2022: FTC commercial surveillance proceeding, European Commission
       eIDAS comments
@@ -299,6 +314,32 @@ Table of Contents
               Attack", BCP 188, RFC 7258, DOI 10.17487/RFC7258, May
               2014, <https://www.rfc-editor.org/rfc/rfc7258>.
 
+   [RFC7435]  Dukhovni, V., "Opportunistic Security: Some Protection
+              Most of the Time", RFC 7435, DOI 10.17487/RFC7435,
+              December 2014, <https://www.rfc-editor.org/rfc/rfc7435>.
+
+   [RFC7567]  Baker, F., Ed. and G. Fairhurst, Ed., "IETF
+              Recommendations Regarding Active Queue Management",
+              BCP 197, RFC 7567, DOI 10.17487/RFC7567, July 2015,
+              <https://www.rfc-editor.org/rfc/rfc7567>.
+
+   [RFC7713]  Mathis, M. and B. Briscoe, "Congestion Exposure (ConEx)
+              Concepts, Abstract Mechanism, and Requirements", RFC 7713,
+              DOI 10.17487/RFC7713, December 2015,
+              <https://www.rfc-editor.org/rfc/rfc7713>.
+
+   [RFC7816]  Bortzmeyer, S., "DNS Query Name Minimisation to Improve
+              Privacy", RFC 7816, DOI 10.17487/RFC7816, March 2016,
+              <https://www.rfc-editor.org/rfc/rfc7816>.
+
+   [RFC8110]  Harkins, D., Ed. and W. Kumari, Ed., "Opportunistic
+              Wireless Encryption", RFC 8110, DOI 10.17487/RFC8110,
+              March 2017, <https://www.rfc-editor.org/rfc/rfc8110>.
+
+   [RFC8164]  Nottingham, M. and M. Thomson, "Opportunistic Security for
+              HTTP/2", RFC 8164, DOI 10.17487/RFC8164, May 2017,
+              <https://www.rfc-editor.org/rfc/rfc8164>.
+
    [RFC8224]  Peterson, J., Jennings, C., Rescorla, E., and C. Wendt,
               "Authenticated Identity Management in the Session
               Initiation Protocol (SIP)", RFC 8224,
@@ -319,6 +360,11 @@ Table of Contents
               Asserted information using toKENs (SHAKEN)", RFC 8588,
               DOI 10.17487/RFC8588, May 2019,
               <https://www.rfc-editor.org/rfc/rfc8588>.
+
+   [RFC9156]  Bortzmeyer, S., Dolmans, R., and P. Hoffman, "DNS Query
+              Name Minimisation to Improve Privacy", RFC 9156,
+              DOI 10.17487/RFC9156, November 2021,
+              <https://www.rfc-editor.org/rfc/rfc9156>.
 
    [TLS13]    Rescorla, E., "The Transport Layer Security (TLS) Protocol
               Version 1.3", RFC 8446, DOI 10.17487/RFC8446, August 2018,
