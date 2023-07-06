@@ -5,8 +5,8 @@
 Network Working Group                                      M. Nottingham
 Internet-Draft                                                          
 Intended status: Informational                                 A. Cooper
-Expires: 4 January 2024                                            Cisco
-                                                             3 July 2023
+Expires: 7 January 2024                                            Cisco
+                                                             6 July 2023
 
 
                         IETF Policy Interactions
@@ -45,7 +45,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 4 January 2024.
+   This Internet-Draft will expire on 7 January 2024.
 
 Copyright Notice
 
@@ -65,10 +65,10 @@ Table of Contents
 
    1.  Introduction
    2.  Policy Interactions
-     2.1.  Encryption BCPs
+     2.1.  Encryption and Access to Communications
      2.2.  DNS-over-HTTPS (DOH)
      2.3.  TLS Encrypted Client Hello (ECH)
-     2.4.  VoIP
+     2.4.  Voice over IP
      2.5.  Emergency services
      2.6.  Caller identity authentication
      2.7.  Messaging interoperability
@@ -84,10 +84,11 @@ Table of Contents
 
 1.  Introduction
 
-   This document captures a list of interactions between IETF efforts
-   and policy efforts (e.g., regulation or legislation) around the
-   world, past or present.  The objective of this docment is merely to
-   catalogue these interactions in a single location.
+   This document captures a list of interactions between IETF standards-
+   related efforts and external policy efforts (e.g., regulation or
+   legislation) around the world, past or present.  The objective of
+   this document is merely to catalogue these interactions in a single
+   location.
 
    Comments and additional suggestions of policy interactions not listed
    here should be submitted via the issue tracker at
@@ -96,22 +97,39 @@ Table of Contents
 
 2.  Policy Interactions
 
-2.1.  Encryption BCPs
+2.1.  Encryption and Access to Communications
 
-   *  See [RFC1984] and all the discussions that led up to it.
+   THE IETF has repeatedly published materials that respond to policy
+   developments surrounding the use of encryption, and more generally
+   regarding access to communications.
 
-   *  See [RFC2804] and all the discussions that led up to it.
+   [RFC1984] stated the IESG and IAB's position regarding legal
+   constraints on encryption in 1996, with a focus on the effects on the
+   Internet.  It was elevated to Best Current Practice (which requires
+   IETF-wide consensus) in 2015.
 
-   *  See [RFC3365].
+   [RFC2804] articulates why the IESG and IAB believed that it was not
+   appropriate to accommodate wiretapping requirements from law
+   enforcement, circa 2000.
 
-   *  See [RFC7258] and all the post-Snowden follow-on activity related
-      to encryption: data minimization in DNS, DHCP, and elsewhere;
-      opportunistic encryption; ACME; HTTP/2 discussions, TLS 1.3, and
-      QUIC.  All of these efforts trace some roots back to post-Snowden.
+   [RFC3365] set a requirement for IETF standard protocols to use
+   'appropriate strong security mechanisms', including encryption.  It
+   was published as Best Current Practice in 2002.
+
+   [RFC7258] documents IETF consensus that pervasive monitoring is an
+   attack, and thus should be mitigated in IETF protocols (often, using
+   encryption).  It was a response to the Snowden revelations, and
+   followed the STRINT Workshop https://www.w3.org/2014/strint/
+   (https://www.w3.org/2014/strint/), held jointly by the W3C and IAB.
+   Follow-on work to implement [RFC7258] includes opportunistic
+   encryption, data minimization, improvements to the encryption
+   ecosystem such as [ACME], discussion of mandatory encryption in
+   [HTTP2], [TLS13], and [QUIC].
 
 2.2.  DNS-over-HTTPS (DOH)
 
-   See [RFC8484].
+   [DOH] was a technical response to pervasive monitoring attacks on
+   DNS.
 
    Some related news reporting: * Proposal to regulate in Russia
    (https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-
@@ -124,7 +142,9 @@ Table of Contents
 
 2.3.  TLS Encrypted Client Hello (ECH)
 
-   See [I-D.ietf-tls-esni].
+   [ECH] is a work-in-progress effort to respond to pervasive monitoring
+   attacks on TLS SNI, which exposes the hostname =being connected to,
+   even when several hostnames are served by the same IP address.
 
    Some related news reporting: * Proposal to regulate in Russia
    (https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-
@@ -132,12 +152,12 @@ Table of Contents
    (https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-
    https-traffic-using-tls-1-3-and-esni/)
 
-2.4.  VoIP
+2.4.  Voice over IP
 
    The early years of SIP (early 2000s) had involvement from regulators
    and their proxies.  There is a very significant amount of PSTN
-   interop built into SIP.  See [RFC3261] and the rest of the document
-   suite.
+   interop built into SIP.  See [RFC3261] and the rest of the SIP
+   document suite.
 
 2.5.  Emergency services
 
@@ -220,12 +240,30 @@ Table of Contents
 
 5.  Informative References
 
-   [I-D.ietf-tls-esni]
-              Rescorla, E., Oku, K., Sullivan, N., and C. A. Wood, "TLS
+   [ACME]     Barnes, R., Hoffman-Andrews, J., McCarney, D., and J.
+              Kasten, "Automatic Certificate Management Environment
+              (ACME)", RFC 8555, DOI 10.17487/RFC8555, March 2019,
+              <https://www.rfc-editor.org/rfc/rfc8555>.
+
+   [DOH]      Hoffman, P. and P. McManus, "DNS Queries over HTTPS
+              (DoH)", RFC 8484, DOI 10.17487/RFC8484, October 2018,
+              <https://www.rfc-editor.org/rfc/rfc8484>.
+
+   [ECH]      Rescorla, E., Oku, K., Sullivan, N., and C. A. Wood, "TLS
               Encrypted Client Hello", Work in Progress, Internet-Draft,
               draft-ietf-tls-esni-16, 6 April 2023,
               <https://datatracker.ietf.org/doc/html/draft-ietf-tls-
               esni-16>.
+
+   [HTTP2]    Belshe, M., Peon, R., and M. Thomson, Ed., "Hypertext
+              Transfer Protocol Version 2 (HTTP/2)", RFC 7540,
+              DOI 10.17487/RFC7540, May 2015,
+              <https://www.rfc-editor.org/rfc/rfc7540>.
+
+   [QUIC]     Fielding, R., Ed., Nottingham, M., Ed., and J. Reschke,
+              Ed., "HTTP Semantics", STD 97, RFC 9110,
+              DOI 10.17487/RFC9110, June 2022,
+              <https://www.rfc-editor.org/rfc/rfc9110>.
 
    [RFC1984]  IAB and IESG, "IAB and IESG Statement on Cryptographic
               Technology and the Internet", BCP 200, RFC 1984,
@@ -276,15 +314,15 @@ Table of Contents
               DOI 10.17487/RFC8226, February 2018,
               <https://www.rfc-editor.org/rfc/rfc8226>.
 
-   [RFC8484]  Hoffman, P. and P. McManus, "DNS Queries over HTTPS
-              (DoH)", RFC 8484, DOI 10.17487/RFC8484, October 2018,
-              <https://www.rfc-editor.org/rfc/rfc8484>.
-
    [RFC8588]  Wendt, C. and M. Barnes, "Personal Assertion Token
               (PaSSporT) Extension for Signature-based Handling of
               Asserted information using toKENs (SHAKEN)", RFC 8588,
               DOI 10.17487/RFC8588, May 2019,
               <https://www.rfc-editor.org/rfc/rfc8588>.
+
+   [TLS13]    Rescorla, E., "The Transport Layer Security (TLS) Protocol
+              Version 1.3", RFC 8446, DOI 10.17487/RFC8446, August 2018,
+              <https://www.rfc-editor.org/rfc/rfc8446>.
 
 Authors' Addresses
 
