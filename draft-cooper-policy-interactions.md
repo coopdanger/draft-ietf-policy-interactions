@@ -23,9 +23,9 @@ normative:
 
 informative:
 CLIPPER: 
-  display: Clipper 
-  target: https://cryptomuseum.com/crypto/usa/clipper.htm 
-  title: "Clipper Chip: Cryptographic Key Escrow" 
+  display: Clipper
+  target: https://cryptomuseum.com/crypto/usa/clipper.htm
+  title: "Clipper Chip: Cryptographic Key Escrow"
 
 --- abstract
 
