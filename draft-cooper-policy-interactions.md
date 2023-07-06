@@ -52,7 +52,7 @@ THE IETF has repeatedly published materials that respond to policy developments 
 
 ## DNS-over-HTTPS (DOH)
 
-See {{?RFC8484}}.
+{{?DOH=RFC8484}} was a technical response to pervasive monitoring attacks on DNS.
 
 Some related news reporting:
 * [Proposal to regulate in Russia](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/)
@@ -61,7 +61,7 @@ Some related news reporting:
 
 ## TLS Encrypted Client Hello (ECH)
 
-See {{?I-D.ietf-tls-esni}}.
+{{?ECH=I-D.ietf-tls-esni}} is a work-in-progress effort to respond to pervasive monitoring attacks on TLS SNI, which exposes the hostname =being connected to, even when several hostnames are served by the same IP address.
 
 Some related news reporting:
 * [Proposal to regulate in Russia](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/)
