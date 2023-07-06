@@ -46,13 +46,13 @@ Comments and additional suggestions of policy interactions not listed here shoul
 
 THE IETF has a history of publishing documents that respond to policy developments surrounding the use of encryption, and more generally regarding access to communications.
 
-{{?RFC1984}} stated the IESG and IAB's position regarding legal constraints on encryption in 1996, with a focus on the effects on the Internet. The publication of the document was prompted in part by the controversy surrounding the US government's promotion of the Clipper Chip {{CLIPPER}}. The document was elevated to Best Current Practice (which requires IETF-wide consensus) in 2015.
+{{?RFC1984}} stated the IESG and IAB's position regarding legal constraints on encryption in 1996, with a focus on the effects on the Internet. The publication of the document was prompted in part by the controversy surrounding the US government's promotion of the Clipper Chip {{?CLIPPER}}. The document was elevated to Best Current Practice (which requires IETF-wide consensus) in 2015.
 
 {{?RFC2804}} articulates why the IESG and IAB believed that it was not appropriate to accommodate wiretapping requirements from law enforcement, circa 2000.
 
 {{?RFC3365}} set a requirement for IETF standard protocols to use 'appropriate strong security mechanisms', including encryption. It was published as Best Current Practice in 2002.
 
-{{?RFC7258}} documents IETF consensus that pervasive monitoring is an attack, and thus should be mitigated in IETF protocols (often, using encryption). It was a response to the Snowden revelations, and followed the Workshop on Strengthening the Internet Against Pervasive Monitoring (STRINT) <https://www.w3.org/2014/strint/>, held jointly by the W3C and IAB. Follow-on work to implement {{RFC7258}} includes opportunistic encryption {{RFC7435}} {{RFC8110}} {{RFC8164}}, data minimization {{RFC7816}} {{RFC9156}}, improvements to the encryption ecosystem such as {{?ACME=RFC8555}}, and discussion of mandatory encryption in {{?HTTP2=RFC7540}}, {{?TLS13=RFC8446}}, and {{?QUIC=RFC9110}}.
+{{?RFC7258}} documents IETF consensus that pervasive monitoring is an attack, and thus should be mitigated in IETF protocols (often, using encryption). It was a response to the Snowden revelations, and followed the Workshop on Strengthening the Internet Against Pervasive Monitoring (STRINT) <https://www.w3.org/2014/strint/>, held jointly by the W3C and IAB. Follow-on work to implement {{RFC7258}} includes opportunistic encryption {{?RFC7435}} {{?RFC8110}} {{?RFC8164}}, data minimization {{?RFC7816}} {{?RFC9156}}, improvements to the encryption ecosystem such as {{?ACME=RFC8555}}, and discussion of mandatory encryption in {{?HTTP2=RFC7540}}, {{?TLS13=RFC8446}}, and {{?QUIC=RFC9110}}.
 
 ## DNS-over-HTTPS (DOH)
 
