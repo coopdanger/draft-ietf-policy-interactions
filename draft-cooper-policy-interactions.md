@@ -25,10 +25,6 @@ author:
 normative:
 
 informative:
--
-CLIPPER:
-  target: https://cryptomuseum.com/crypto/usa/clipper.htm
-  title: "Clipper Chip: Cryptographic Key Escrow"
 
 --- abstract
 
@@ -49,7 +45,7 @@ Comments and additional suggestions of policy interactions not listed here shoul
 
 THE IETF has a history of publishing documents that respond to policy developments surrounding the use of encryption, and more generally regarding access to communications.
 
-{{?RFC1984}} stated the IESG and IAB's position regarding legal constraints on encryption in 1996, with a focus on the effects on the Internet. The publication of the document was prompted in part by the controversy surrounding the US government's promotion of the Clipper Chip {{CLIPPER}}. The document was elevated to Best Current Practice (which requires IETF-wide consensus) in 2015.
+{{?RFC1984}} stated the IESG and IAB's position regarding legal constraints on encryption in 1996, with a focus on the effects on the Internet. The publication of the document was prompted in part by the controversy surrounding the US government's promotion of the Clipper Chip. The document was elevated to Best Current Practice (which requires IETF-wide consensus) in 2015.
 
 {{?RFC2804}} articulates why the IESG and IAB believed that it was not appropriate to accommodate wiretapping requirements from law enforcement, circa 2000.
 
