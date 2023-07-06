@@ -6,6 +6,9 @@ docname: draft-cooper-policy-interactions-latest
 submissiontype: IETF
 date: {DATE}
 v: 3
+stand_alone: yes 
+smart_quotes: no
+pi: [toc, tocindent, sortrefs, symrefs, strict, compact, comments, inline]
 venue:
   github: "coopdanger/draft-ietf-policy-interactions"
   latest: "https://coopdanger.github.io/draft-ietf-policy-interactions/draft-cooper-policy-interactions.html"
