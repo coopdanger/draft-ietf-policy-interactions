@@ -67,9 +67,9 @@ Some related news reporting:
 * [Proposal to regulate in Russia](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/)
 * [ESNI blocked in China](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/)
 
-## VoIP
+## Voice over IP
 
-The early years of SIP (early 2000s) had involvement from regulators and their proxies. There is a very significant amount of PSTN interop built into SIP. See {{?RFC3261}} and the rest of the document suite.
+The early years of SIP (early 2000s) had involvement from regulators and their proxies. There is a very significant amount of PSTN interop built into SIP. See {{?RFC3261}} and the rest of the SIP document suite.
 
 ## Emergency services
 
