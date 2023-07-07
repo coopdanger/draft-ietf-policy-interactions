@@ -16,6 +16,7 @@ venue:
 author:
  -
     fullname: Mark Nottingham
+    organization: Cloudflare
     email: "mnot@mnot.net"
  -
     fullname: Alissa Cooper
