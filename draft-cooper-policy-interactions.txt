@@ -3,10 +3,10 @@
 
 
 Network Working Group                                      M. Nottingham
-Internet-Draft                                                          
+Internet-Draft                                                Cloudflare
 Intended status: Informational                                 A. Cooper
-Expires: 7 January 2024                                            Cisco
-                                                             6 July 2023
+Expires: 8 January 2024                                            Cisco
+                                                             7 July 2023
 
 
                         IETF Policy Interactions
@@ -45,7 +45,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 7 January 2024.
+   This Internet-Draft will expire on 8 January 2024.
 
 Copyright Notice
 
@@ -373,6 +373,7 @@ Table of Contents
 Authors' Addresses
 
    Mark Nottingham
+   Cloudflare
    Email: mnot@mnot.net
 
 
