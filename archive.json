@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-07-06T00:08:52.483158+00:00",
+  "timestamp": "2023-07-09T00:09:41.703763+00:00",
   "repo": "coopdanger/draft-ietf-policy-interactions",
   "labels": [
     {
@@ -49,6 +49,82 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
-  "pulls": []
+  "issues": [
+    {
+      "number": 2,
+      "id": "I_kwDOJ3Le5s5q8CB4",
+      "title": "IPR: the most obvious interaction",
+      "url": "https://github.com/coopdanger/draft-ietf-policy-interactions/issues/2",
+      "state": "OPEN",
+      "author": "sayrer",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Since the draft asks that issues be filed, here it is.\r\n\r\nThe IETF has an explicit process for \"policy\" interactions: the IPR disclosure process. Since everyone participates as an individual, and there's no way for the IETF to define the boundaries between commercial entities and governments, this seems to be enough.\r\n\r\nAs an example, I will cite a 20+ year old dispute about SRP:\r\nhttps://www.ietf.org/ietf-ftp/ietf/IPR/PHOENIX-SRP-RFC2945.txt\r\n",
+      "createdAt": "2023-07-07T19:32:23Z",
+      "updatedAt": "2023-07-07T19:32:23Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 3,
+      "id": "I_kwDOJ3Le5s5q8nAA",
+      "title": "IANA",
+      "url": "https://github.com/coopdanger/draft-ietf-policy-interactions/issues/3",
+      "state": "OPEN",
+      "author": "coopdanger",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Per private message from Eliot, add a section about IANA and the IANA stewardship transition.",
+      "createdAt": "2023-07-07T20:40:11Z",
+      "updatedAt": "2023-07-07T20:40:11Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOJ3Le5s5UxOIQ",
+      "title": "Edits",
+      "url": "https://github.com/coopdanger/draft-ietf-policy-interactions/pull/1",
+      "state": "MERGED",
+      "author": "mnot",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-07-06T04:08:14Z",
+      "updatedAt": "2023-07-06T13:35:14Z",
+      "baseRepository": "coopdanger/draft-ietf-policy-interactions",
+      "baseRefName": "main",
+      "baseRefOid": "7d8139bf385d9787d81ca526cbbbc62d997417b3",
+      "headRepository": "mnot/draft-ietf-policy-interactions",
+      "headRefName": "edits",
+      "headRefOid": "dcd4b47f4634b5a913848d53a23540ac560946ba",
+      "closedAt": "2023-07-06T13:35:13Z",
+      "mergedAt": "2023-07-06T13:35:13Z",
+      "mergedBy": "coopdanger",
+      "mergeCommit": {
+        "oid": "c6cab9b37285f98f804c8e30e7c8c8d7a3b7acba"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJ3Le5s5aZPf9",
+          "commit": {
+            "abbreviatedOid": "dcd4b47"
+          },
+          "author": "coopdanger",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-07-06T13:33:52Z",
+          "updatedAt": "2023-07-06T13:33:52Z",
+          "comments": []
+        }
+      ]
+    }
+  ]
 }
