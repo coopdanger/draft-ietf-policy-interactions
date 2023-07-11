@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-07-09T00:09:41.703763+00:00",
+  "timestamp": "2023-07-11T00:08:43.065577+00:00",
   "repo": "coopdanger/draft-ietf-policy-interactions",
   "labels": [
     {
@@ -79,6 +79,22 @@
       "body": "Per private message from Eliot, add a section about IANA and the IANA stewardship transition.",
       "createdAt": "2023-07-07T20:40:11Z",
       "updatedAt": "2023-07-07T20:40:11Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 4,
+      "id": "I_kwDOJ3Le5s5rGz30",
+      "title": "Refreshing this",
+      "url": "https://github.com/coopdanger/draft-ietf-policy-interactions/issues/4",
+      "state": "OPEN",
+      "author": "richsalz",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "This is useful and interesting. Do you have thoughts as to how this could be kept current?  A regular LLC or IAB statement is a possibility, for example.\r\n",
+      "createdAt": "2023-07-10T14:49:52Z",
+      "updatedAt": "2023-07-10T14:49:52Z",
       "closedAt": null,
       "comments": []
     }
